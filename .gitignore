@@ -26,3 +26,6 @@
 /minecraft_server*
 /libraries
 /crash-reports
+/world
+/backups
+/local
