@@ -4,8 +4,9 @@ A tech and adventure focus with a high degree of astetic!
 The mods-assets can be downloaded at:
 https://minecraft.fampat.de
 
-#Client Install
+# Client Install
 ## German
+* Forge 1.16.5 - 36.2.8 als Client installieren (https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.2.8/forge-1.16.5-36.2.8-installer.jar)
 * Klonen von git@github.com:fampat/fampat-mc-modpack-fampack.git in einen belieben lokalen Ordner  
 * Branch des Git-Klons wechseln auf "1.16.5-Client"  
 * Minecraft-Launscher starten  
