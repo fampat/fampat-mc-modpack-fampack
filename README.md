@@ -6,7 +6,7 @@ https://minecraft.fampat.de
 
 #Client Install
 ## German
-* Klonen von git@github.com:fampat/fampat-mc-modpack-fampack.git in eien belieben lokalen Ordner  
+* Klonen von git@github.com:fampat/fampat-mc-modpack-fampack.git in einen belieben lokalen Ordner  
 * Branch des Git-Klons wechseln auf "1.16.5-Client"  
 * Minecraft-Launscher starten  
 * Im Minecraft-Launcher eine neue Installation Hinzufügen Namens "Fampack"  
