@@ -12,6 +12,6 @@
 	"texture": "packmenu:textures/gui/buttons.png",
 	"widgets": false,
 	"action": "OPEN_URL",
-	"data": "https://github.com/ValhelsiaTeam",
+	"data": "https://github.com/fampat/fampat-mc-modpack-fampack",
 	"anchor": "BOTTOM_CENTER"
 }
