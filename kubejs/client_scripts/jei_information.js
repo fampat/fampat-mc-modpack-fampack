@@ -10,13 +10,16 @@ events.listen('jei.information', function (event) {
       'mysticalworld:amethyst_boots'
     ]
 
-	// Thermal
-	event.add('thermal:bitumen', ['Byproduct of refining Oil in a Distillation Tower'])
-	event.add('mekanism:creative_energy_cube', ['To fill the Cube you have to get 2x Ultimate Induction Providers, 2x filled Ultimate Energy Cubes and an ATM Star.',
-	'', 'You must build a multiblock structure in a horizontal line by placing the Creative Cube down with the Providers on either sides and the Ultimate Cubes at the end.',
-	'', 'All you have to do now, is to make sure your cubes are filled, after which you can Shift + RClick the Creative Cube with the Star.'])
-
     event.add(amethystArmour, ["The Serendipity statistic provides a bonus to both Fortune and Looting.", " ", "The Luck statistic provides a bonus while fishing (in the same manner as \"Luck of the Sea\") and a chance to receive better loot in some structures."])
+
+    // Thermal
+    event.add('thermal:bitumen', ['Byproduct of refining Oil in a Distillation Tower'])
+    event.add('mekanism:creative_energy_cube', [
+      'To fill the Cube you have to get 2x Ultimate Induction Providers, 2x filled Ultimate Energy Cubes and an ATM Star.',
+      '', 'You must build a multiblock structure in a horizontal line by placing the Creative Cube down with the Providers on either sides and the Ultimate Cubes at the end.',
+      '', 'All you have to do now, is to make sure your cubes are filled, after which you can Shift + RClick the Creative Cube with the Star.'
+    ])
+
 
     // Quark Additional Information
     event.add('minecraft:chain', "When right-clicking with Chains onto a boat or minecart, and then onto another, they'll link the two. Linked boats and minecarts will always remain at close distance, which allows you to make trains.")

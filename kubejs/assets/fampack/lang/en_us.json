@@ -1,13 +1,4 @@
 {
-	"comment.sdrp": "---Simple Discord Rich Presence---",
-	"sdrp.logo": "Fampaack",
-	"sdrp.overworld.in": "In Overworld",
-	"sdrp.overworld": "Overworld",
-	"sdrp.the_nether.in": "In Nether",
-	"sdrp.the_nether": "Nether",
-	"sdrp.the_end.in": "In The End",
-	"sdrp.the_end": "The End",
-
 	"comment.items": "---Items with missing or incorrect language entries---",
 	"item.minecraft.potion.effect.serepdipity": "Potion of Serendipity",
 	"item.minecraft.splash_potion.effect.serepdipity": "Splash Potion of Serendipity",
