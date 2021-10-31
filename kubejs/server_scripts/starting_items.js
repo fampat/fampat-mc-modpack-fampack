@@ -15,7 +15,8 @@ events.listen('player.logged_in', function (event) {
 			mysticalworld:{id:"mysticalworld:encyclopedia",Count:1,tag:{"akashictome:displayName":{text:"Encyclopædia Mysticum"},"akashictome:is_morphing":1,display:{Name:"{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Encyclopædia Mysticum\"}]}"}}},
 			bloodmagic:{id:"patchouli:guide_book",Count:1,tag:{"akashictome:displayName":{text:"Sanguine Scientiem"},"patchouli:book":"bloodmagic:guide","akashictome:is_morphing":1,display:{Name:"{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Sanguine Scientiem\"}]}"}}},
 			twilightforest:{id:"patchouli:guide_book",Count:1,tag:{"akashictome:displayName":{text:"Traveller's Logbook [WIP]"},"patchouli:book":"twilightforest:guide","akashictome:is_morphing":1,display:{Name:"{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Traveller's Logbook [WIP]\"}]}"}}},
-			thermal:{id:"patchouli:guide_book",Count:1,tag:{"akashictome:displayName":{text:"Thermalpedia"},"patchouli:book":"thermal:guidebook","akashictome:is_morphing":1,display:{Name:"{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Thermalpedia\"}]}"}}}
+			thermal:{id:"patchouli:guide_book",Count:1,tag:{"akashictome:displayName":{text:"Thermalpedia"},"patchouli:book":"thermal:guidebook","akashictome:is_morphing":1,display:{Name:"{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Thermalpedia\"}]}"}}},
+			betterendforge:{id:"betterendforge:guidebook",Count:1,tag:{"akashictome:displayName":{text:"The End for Dummies"},"akashictome:is_morphing":1,display:{Name:"{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The End for Dumies\"}]}"}}}
 	}}))
 
 	// Give starting equipment
