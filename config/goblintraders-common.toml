@@ -16,13 +16,13 @@
 		canAttackBack = true
 		#The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
 		#Range: > -1
-		restockDelay = 576000
+		restockDelay = 57600
 		#The amount of ticks before the trader will spawn again
 		#Range: > 0
-		traderSpawnDelay = 288000
+		traderSpawnDelay = 28800
 		#The chance out of one hundred that the trader will spawn in the over world
 		#Range: 1 ~ 100
-		traderSpawnChance = 2
+		traderSpawnChance = 10
 
 	#Goblin Trader settings
 	[common.goblin_trader]
@@ -36,11 +36,11 @@
 		canAttackBack = true
 		#The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
 		#Range: > -1
-		restockDelay = 288000
+		restockDelay = 28800
 		#The amount of ticks before the trader will spawn again
 		#Range: > 0
-		traderSpawnDelay = 144000
+		traderSpawnDelay = 14400
 		#The chance out of one hundred that the trader will spawn in the over world
 		#Range: 1 ~ 100
-		traderSpawnChance = 5
+		traderSpawnChance = 15
 
