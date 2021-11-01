@@ -19,11 +19,11 @@ distance:1
 showCoords:true
 lockNorth:false
 zoom:0
-minimapSize:0
+minimapSize:165
 chunkGrid:-1
 slimeChunks:false
 mapSafeMode:false
-minimapOpacity:100.0
+minimapOpacity:80.0
 waypointsIngameIconScale:0
 waypointsIngameDistanceScale:0
 waypointsIngameNameScale:0
@@ -77,7 +77,7 @@ lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
 lightOverlayColor:13
-uiScale:0
+uiScale:1
 bossHealthPushBox:1
 potionEffectPushBox:1
 minimapFrame:0
