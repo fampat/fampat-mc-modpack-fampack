@@ -5,7 +5,7 @@
 	CosArmorGuiButton_Hidden = false
 	#The horizontal pixel distance from the origin point of player inventory gui
 	#Range: > -2147483648
-	CosArmorGuiButton_Left = 25
+	CosArmorGuiButton_Left = 28
 	#The vertical pixel distance from the origin point of player inventoy gui
 	#Range: > -2147483648
 	CosArmorGuiButton_Top = 67
