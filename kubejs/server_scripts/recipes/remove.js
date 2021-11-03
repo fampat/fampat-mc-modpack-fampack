@@ -2,6 +2,9 @@
 
 events.listen('recipes', function (event) {
   var idRemove = [
+    // Mob Grinding Utils
+    'mob_grinding_utils:jumbo_tank',  // OP-Tank must go
+
     // Abnormals Delight
     'abnormals_delight:environmental/cooking/squid_ink_risotto', // Squid Ink Risotto has been removed from Environmental
 
