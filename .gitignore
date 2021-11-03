@@ -26,3 +26,5 @@
 /schematics
 /crash-reports
 /notes
+config/xaeroworldmap.txt
+config/xaerominimap_entities.json

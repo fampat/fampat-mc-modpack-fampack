@@ -6,6 +6,7 @@
 	"item.minecraft.lingering_potion.effect.serepdipity": "Lingering Potion of Serendipity",
 	"item.bloodmagic.ingot_hellforged": "Hellforged Ingot",
 	"item.bloodmagic.sand_hellforged": "Hellforged Sand",
+	"fluid.bloodmagic.life_essence_fluid": "LE",
 
 	"comment.blocks": "--- Blocks with missing or incorrect language entries---",
 	"block.twilightforest.twilight_portal": "Twilight Portal",
