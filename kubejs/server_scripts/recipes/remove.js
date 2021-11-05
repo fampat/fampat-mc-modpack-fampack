@@ -4,7 +4,8 @@ events.listen('recipes', function (event) {
   var idRemove = [
     // Mob Grinding Utils
     'mob_grinding_utils:jumbo_tank',                // OP-Tank must go
-    'mob_grinding_utils:recipe_jumbo_tank',         // OP-Tank must go
+    'mob_grinding_utils:recipe_jumbotank',          // OP-Tank must go
+    'mob_grinding_utils:recipe_jumbotank_reset',    // OP-Tank must go
     'mob_grinding_utils:recipe_jumbo_tank_reset',   // OP-Tank must go
 
     // Abnormals Delight
