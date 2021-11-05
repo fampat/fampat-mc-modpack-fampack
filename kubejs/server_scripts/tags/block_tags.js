@@ -183,8 +183,7 @@ onEvent('block.tags', event => {
     'quark:chiseled_soul_sandstone'
   ]
 
-  event.get('forge:sandstone/soul')
-       .add(soulSandstones)
+  event.get('forge:sandstone/soul').add(soulSandstones)
 
   event.add('forge:sandstone/colorless', 'quark:sandstone_bricks')
   event.add('forge:sandstone/red', 'quark:red_sandstone_bricks')
