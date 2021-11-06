@@ -7,6 +7,12 @@ events.listen('jei.hide.items', function (event) {
 	// Hide bloodmagic items that cannot be crafted
 	event.hide('bloodmagic:inversion_pillar_cap')
 
+	// Hide op tank
+	event.hide('mob_grinding_utils:jumbo_tank')
+
+    // TF Oak Door missing texture
+    event.hide('twilightforest:twilight_oak_door')
+
 	// Hide unused items.
 	event.hide('immersiveengineering:dust_wood') // Replaced with Mekanism's Sawdust
 	event.hide(Item.of('ftblibrary:fluid_container').ignoreNBT())
