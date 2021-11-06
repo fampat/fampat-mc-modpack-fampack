@@ -10,8 +10,9 @@ events.listen('jei.hide.items', function (event) {
 	// Hide op tank
 	event.hide('mob_grinding_utils:jumbo_tank')
 
-    // TF Oak Door missing texture
+    // TF Door missing texture
     event.hide('twilightforest:twilight_oak_door')
+    event.hide('twilightforest:mine_door')
 
 	// Hide unused items.
 	event.hide('immersiveengineering:dust_wood') // Replaced with Mekanism's Sawdust
