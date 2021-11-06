@@ -31,6 +31,9 @@ events.listen('recipes', function (event) {
 
     // Industrial Foregoing
     'industrialforegoing:black_hole_controller', // Replaced with a different recipe to fix Ender Chest issues.
+    
+    // TF Oak Door missing texture
+    'twilightforest:wood/twilight_oak_door',
 
     // Mekanism - Combiner (remove all ore to prevent infinite ore exploits)
     'jaopca:mekanism.dust_to_ore.aluminum',
