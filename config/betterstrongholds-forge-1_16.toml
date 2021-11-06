@@ -5,7 +5,7 @@
 	# Entries must have the mod namespace included.
 	# For example: "[minecraft:overworld, minecraft:the_nether, undergarden:undergarden]"
 	# Default: "[minecraft:overworld]"
-	"Whitelisted Dimensions" = "[minecraft:overworld]"
+	"Whitelisted Dimensions" = "[minecraft:overworld, mining_dimension:mining]"
 	# List of biomes that will NOT have Better Strongholds.
 	# List must be comma-separated values enclosed in square brackets.
 	# Entries must have the mod namespace included.

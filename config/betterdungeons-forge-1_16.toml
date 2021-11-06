@@ -27,7 +27,7 @@
 		# Entries must have the mod namespace included.
 		# For example: "[minecraft:overworld, minecraft:the_nether, undergarden:undergarden]"
 		# Default: "[minecraft:overworld]"
-		"Skeleton Dungeon Whitelisted Dimensions" = "[minecraft:overworld]"
+		"Skeleton Dungeon Whitelisted Dimensions" = "[minecraft:overworld, mining_dimension:mining]"
 		# The minimum y-value at which the STARTING POINT of the skeleton dungeon can spawn.
 		# Note that this point is the bottom of the skeleton dungeon, so the various pieces of the dungeon can extend above it.
 		# Default: 11
@@ -50,7 +50,7 @@
 		# Entries must have the mod namespace included.
 		# For example: "[minecraft:overworld, minecraft:the_nether, undergarden:undergarden]"
 		# Default: "[minecraft:overworld]"
-		"Zombie Dungeon Whitelisted Dimensions" = "[minecraft:overworld]"
+		"Zombie Dungeon Whitelisted Dimensions" = "[minecraft:overworld, mining_dimension:mining]"
 		# Whether or not Zombie Dungeons from Better Dungeons should spawn.
 		# Default: true
 		"Spawn Zombie Dungeons" = true
@@ -84,7 +84,7 @@
 		# Entries must have the mod namespace included.
 		# For example: "[minecraft:overworld, minecraft:the_nether, undergarden:undergarden]"
 		# Default: "[minecraft:overworld]"
-		"Spider Dungeon Whitelisted Dimensions" = "[minecraft:overworld]"
+		"Spider Dungeon Whitelisted Dimensions" = "[minecraft:overworld, mining_dimension:mining]"
 		# The minimum y-value at which the STARTING POINT of the spider dungeon can spawn.
 		# Note that this point is the top of the spider dungeon, so the various pieces of the dungeon can extend far below it.
 		# Any parts that spawn above the surface (according to the heightmap) will not be placed.
@@ -154,7 +154,7 @@
 		# Entries must have the mod namespace included.
 		# For example: "[minecraft:overworld, minecraft:the_nether, undergarden:undergarden]"
 		# Default: "[minecraft:overworld]"
-		"Small Dungeon Whitelisted Dimensions" = "[minecraft:overworld]"
+		"Small Dungeon Whitelisted Dimensions" = "[minecraft:overworld, mining_dimension:mining]"
 		# The variation in distance between small dungeons, in chunks.
 		# This, combined with the Small Dungeon Average Separation Distance, controls the distribution
 		# of spawn chances for small dungeons.

@@ -529,7 +529,7 @@
 		"Search Range" = 6
 
 		[world.monster_box.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 			"Is Blacklist" = false
 
 	[world.cave_crystal_underground_biome]
@@ -573,7 +573,7 @@
 				"Is Blacklist" = true
 
 			[world.cave_crystal_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.speleothems]
@@ -616,7 +616,7 @@
 				"Is Blacklist" = false
 
 			[world.sandstone_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.spiral_spires]
@@ -706,11 +706,11 @@
 				"Is Blacklist" = true
 
 			[world.crevices.spawn_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.crevices.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["mining_dimension:mining"]
 			"Is Blacklist" = false
 
 	[world.cave_roots]
@@ -720,7 +720,7 @@
 		"Enable Brewing" = true
 
 		[world.cave_roots.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 			"Is Blacklist" = false
 
 	[world.new_stone_types]
@@ -744,7 +744,7 @@
 				"Cluster Size" = 33
 
 			[world.new_stone_types.marble.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.new_stone_types.limestone]
@@ -760,7 +760,7 @@
 				"Cluster Size" = 33
 
 			[world.new_stone_types.limestone.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.new_stone_types.myalite]
@@ -808,7 +808,7 @@
 				"Cluster Size" = 33
 
 			[world.new_stone_types.slate.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.new_stone_types.jasper]
@@ -824,7 +824,7 @@
 				"Cluster Size" = 33
 
 			[world.new_stone_types.jasper.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.spider_nest_underground_biome]
@@ -856,7 +856,7 @@
 				"Is Blacklist" = false
 
 			[world.spider_nest_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.deepslate]
@@ -865,8 +865,8 @@
 		"Sheet Height" = 18
 
 		[world.deepslate.dimensions]
-			Dimensions = ["minecraft:overworld"]
-			"Is Blacklist" = true
+			Dimensions = []
+			"Is Blacklist" = false
 
 	[world.blossom_trees]
 
@@ -889,7 +889,7 @@
 					"Is Blacklist" = true
 
 			[world.blossom_trees.orange.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.red]
@@ -911,7 +911,7 @@
 					"Is Blacklist" = true
 
 			[world.blossom_trees.red.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.pink]
@@ -933,7 +933,7 @@
 					"Is Blacklist" = true
 
 			[world.blossom_trees.pink.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.blue]
@@ -955,7 +955,7 @@
 					"Is Blacklist" = true
 
 			[world.blossom_trees.blue.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.yellow]
@@ -977,7 +977,7 @@
 					"Is Blacklist" = true
 
 			[world.blossom_trees.yellow.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.lavender]
@@ -999,7 +999,7 @@
 					"Is Blacklist" = true
 
 			[world.blossom_trees.lavender.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.mega_caves]
@@ -1030,11 +1030,11 @@
 				"Is Blacklist" = true
 
 			[world.mega_caves.spawn_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.mega_caves.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 			"Is Blacklist" = false
 
 	[world.elder_prismarine_underground_biome]
@@ -1069,7 +1069,7 @@
 				"Is Blacklist" = false
 
 			[world.elder_prismarine_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.glowshroom_underground_biome]
@@ -1106,7 +1106,7 @@
 				"Is Blacklist" = false
 
 			[world.glowshroom_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.big_stone_clusters]
@@ -1147,7 +1147,7 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.marble.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.limestone]
@@ -1183,7 +1183,7 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.limestone.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.granite]
@@ -1219,7 +1219,7 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.granite.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.myalite]
@@ -1328,7 +1328,7 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.andesite.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.slate]
@@ -1364,7 +1364,7 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.slate.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.diorite]
@@ -1400,7 +1400,7 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.diorite.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.jasper]
@@ -1436,7 +1436,7 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.jasper.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.overgrown_underground_biome]
@@ -1467,7 +1467,7 @@
 				"Is Blacklist" = false
 
 			[world.overgrown_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.permafrost_underground_biome]
@@ -1498,7 +1498,7 @@
 				"Is Blacklist" = false
 
 			[world.permafrost_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.lush_underground_biome]
@@ -1529,7 +1529,7 @@
 				"Is Blacklist" = false
 
 			[world.lush_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.brimstone_underground_biome]
@@ -1560,7 +1560,7 @@
 				"Is Blacklist" = false
 
 			[world.brimstone_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.big_dungeon]
@@ -1602,13 +1602,13 @@
 		"Plains Chance" = 0.005
 
 		[world.fairy_rings.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 			"Is Blacklist" = false
 
 	[world.underground_clay]
 
 		[world.underground_clay.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 			"Is Blacklist" = false
 
 		[world.underground_clay.ore_settings]
@@ -1649,7 +1649,7 @@
 				"Is Blacklist" = false
 
 			[world.slime_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 				"Is Blacklist" = false
 
 [mobs]
@@ -1688,7 +1688,7 @@
 					"Is Blacklist" = true
 
 		[mobs.toretoise.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 			"Is Blacklist" = false
 
 	[mobs.crabs]
@@ -1829,7 +1829,7 @@
 					"Is Blacklist" = true
 
 		[mobs.stonelings.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 			"Is Blacklist" = false
 
 	[mobs.forgotten]
