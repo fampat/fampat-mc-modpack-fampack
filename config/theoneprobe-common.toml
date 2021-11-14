@@ -1,3 +1,5 @@
+#This is a list of entities that will not be rendered by TOP. This option also works if it is set client-side alone
+renderBlacklist = ["paul:paul_entity", "minecraft:zombie_head", "minecraft:skeleton_skull"]
 #How much time (ms) to wait before reporting an exception again
 #Range: 1 ~ 10000000
 loggingThrowableTimeout = 20000
