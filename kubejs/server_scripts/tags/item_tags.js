@@ -617,6 +617,10 @@ onEvent('item.tags', event => {
     'nethers_delight:hoglin_hide'
   ])
 
+  // IE Dust as dye like Mekanisms
+  event.add('forge:dyes', 'immersiveengineering:dust_sulfur')
+  event.add('forge:dyes/yellow', 'immersiveengineering:dust_sulfur')
+
   // BetterEnd Missing Tags:
   event.add('forge:gems/amber', 'betterendforge:amber_gem')
   event.add('forge:storage_blocks/amber', 'betterendforge:amber_block')
