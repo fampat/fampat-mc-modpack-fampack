@@ -42,8 +42,11 @@ events.listen('recipes', function (event) {
   event.recipes.mekanism.metallurgic_infusing('betterendforge:end_moss', 'minecraft:end_stone', 'mekanism:bio', 10)
   event.recipes.mekanism.metallurgic_infusing('betterendforge:end_mycelium', 'minecraft:end_stone', 'mekanism:fungi', 10)
 
-  // Atum
-  event.recipes.mekanism.crushing(Item.of('minecraft:bone_meal', 9), 'atum:dirty_bone_block')
+  // Blue Skies
+  event.recipes.mekanism.crushing(Item.of('minecraft:bone_meal', 9), 'blue_skies:azulfo_horn')
+  event.recipes.mekanism.crushing(Item.of('blue_skies:moonstone_shard', 4), '#blue_skies:gems/moonstone')
+  event.recipes.mekanism.crushing('blue_skies:crystal_sand', 'create:dolomite')
+  event.recipes.mekanism.crushing('blue_skies:midnight_sand', 'quark:cobbled_deepslate')
 
   // BoP
   event.recipes.mekanism.crushing(Item.of('mekanism:sawdust', 1), 'biomesoplenty:dead_branch')

@@ -594,9 +594,9 @@
 		#Range: > 0
 		bronzeEnchantability = 10
 		#Attack damage modifier of bronze swords.
-		bronzeSwordDamage = 3.0
+		bronzeSwordDamage = 2.0
 		#Attack speed of bronze shovels.
-		bronzeShovelAtkSpeed = -3.0
+		bronzeShovelAtkSpeed = -2.4
 		#Maximum durability of bronze chestplates.
 		#Range: > 1
 		bronzeChestplateDurability = 560

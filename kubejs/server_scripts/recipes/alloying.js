@@ -42,6 +42,9 @@ events.listen('recipes', function (event) {
 
   // Create
   alloy(Item.of('create:brass_ingot', 2), '#forge:ingots/copper', '#forge:ingots/zinc')
+  alloy('create:andesite_alloy', '#forge:nuggets/zinc', 'create:andesite_cobblestone')
+  alloy('create:andesite_alloy', '#forge:nuggets/iron', 'create:andesite_cobblestone')
+
 
   // Immersive Engineering
   alloy(Item.of('immersiveengineering:ingot_constantan', 2), '#forge:ingots/copper', '#forge:ingots/nickel')

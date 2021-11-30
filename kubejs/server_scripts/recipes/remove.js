@@ -11,6 +11,19 @@ events.listen('recipes', function (event) {
     // Abnormals Delight
     'abnormals_delight:environmental/cooking/squid_ink_risotto', // Squid Ink Risotto has been removed from Environmental
 
+    // Biomes 'o' Plenty
+    'biomesoplenty:purple_dye_from_lavender', // Redundant.
+    'biomesoplenty:mossy_cobblestone_from_willow_vine', // Redundant.
+    'biomesoplenty:mossy_stone_bricks_from_willow_vine', // Redundant.
+
+    // Botania
+    'botania:pure_daisy/sand', // Replaced with a different recipe.
+
+    // Blood Magic
+    'bloodmagic:smelting/ingot_gold', // Duplicate recipe.
+    'bloodmagic:arc/ore/dustgold', // Duplicate recipe.
+    'bloodmagic:smelting/ingot_iron', // Duplicate recipe.
+    'bloodmagic:arc/ore/dustiron', // Duplicate recipe.
     // Create
     'create:compat/atmospheric/milling/hot_monkey_brush', // Fix erroring recipe.
     'create:compat/upgrade_aquatic/milling/searocket_pink', // Fix erroring recipe.
@@ -27,6 +40,21 @@ events.listen('recipes', function (event) {
     'decorative_blocks:rocky_dirt', // Replaced with a different recipe.
 
     // Immersive Engineering
+    'immersiveengineering:crafting/paper_from_sawdust', // Removed since Mekanism method made this redundant.
+    'immersiveengineering:crafting/gold_ingot_from_dust_from_blasting', // Duplicate recipe.
+    'immersiveengineering:crafting/gold_ingot_from_dust', // Duplicate recipe.
+    'immersiveengineering:crafting/iron_ingot_from_dust_from_blasting', // Duplicate recipe.
+    'immersiveengineering:crafting/iron_ingot_from_dust', // Duplicate recipe.
+    'immersiveengineering:crusher/nether_gold',
+    'immersiveengineering:crafting/nugget_silver_to_ingot_silver',
+    'immersiveengineering:crafting/ingot_silver_to_storage_silver',
+    'immersiveengineering:crafting/storage_silver_to_ingot_silver',
+    'immersiveengineering:crafting/ingot_silver_from_dust',
+    'immersiveengineering:crafting/ingot_silver_from_dust_from_blasting',
+    'immersiveengineering:crafting/ingot_uranium_to_storage_uranium',
+    'immersiveengineering:crafting/ingot_steel_to_storage_steel',
+    'immersiveengineering:crafting/ingot_copper_to_storage_copper',
+    'immersiveengineering:crafting/ingot_lead_to_storage_lead',
     'immersiveengineering:crusher/nether_wart', // Default recipe leads to dupe exploit.
 
     // Industrial Foregoing

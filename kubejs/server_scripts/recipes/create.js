@@ -59,6 +59,10 @@ events.listen('recipes', function (event) {
   event.recipes.create.pressing('betterendforge:rutiscus_path', 'betterendforge:rutiscus')
   event.recipes.create.pressing('betterendforge:sangnum_path', 'betterendforge:sangnum')
 
+  // Blue Skies
+  crushAndMill('blue_skies:crystal_sand', 'create:dolomite')
+  crushAndMill('blue_skies:midnight_sand', 'quark:cobbled_deepslate')
+
   // BoP
   crushAndMill('biomesoplenty:white_sand', 'quark:marble')
   crushAndMill('biomesoplenty:black_sand', 'minecraft:basalt')

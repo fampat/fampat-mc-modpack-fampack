@@ -41,6 +41,8 @@ events.listen('recipes', function (event) {
   // Blue Skies Compat
   event.recipes.immersiveengineering.crusher(Item.of('minecraft:bone_meal', 9), 'blue_skies:azulfo_horn')
   event.recipes.immersiveengineering.crusher(Item.of('blue_skies:moonstone_shard', 4), '#blue_skies:gems/moonstone')
+  event.recipes.immersiveengineering.crusher('blue_skies:crystal_sand', 'create:dolomite')
+  event.recipes.immersiveengineering.crusher('blue_skies:midnight_sand', 'quark:cobbled_deepslate')
 
   // BoP Compat
   event.recipes.immersiveengineering.crusher('biomesoplenty:white_sand', 'quark:marble')
@@ -71,8 +73,7 @@ events.listen('recipes', function (event) {
   event.recipes.immersiveengineering.metal_press(Item.of('minecraft:dried_kelp', 9), 'minecraft:dried_kelp_block', 'immersiveengineering:mold_unpacking')
   event.recipes.immersiveengineering.metal_press(Item.of('minecraft:nether_wart', 4), 'minecraft:nether_wart_block', 'immersiveengineering:mold_unpacking')
   event.recipes.immersiveengineering.crusher(Item.of('minecraft:bone_meal', 9), 'minecraft:bone_block')
-  // Adjusted Nether Wart crushing to prevent duplicating nether wart.
-  event.recipes.immersiveengineering.crusher(Item.of('minecraft:nether_wart', 4), 'minecraft:nether_wart')
+  event.recipes.immersiveengineering.crusher(Item.of('minecraft:nether_wart', 4), 'minecraft:nether_wart_block')
 
   // Mystical World Compat
   squeezer('immersiveengineering:plantoil', '#forge:seeds/aubergine', 60)
@@ -81,6 +82,9 @@ events.listen('recipes', function (event) {
 
   // Quark Compat
   event.recipes.immersiveengineering.crusher(Item.of('minecraft:soul_sand', 2), '#forge:sandstone/soul', Item.of('bloodmagic:saltpeter').withChance(0.5))
+
+  // Supplementaries Compat
+  squeezer('immersiveengineering:plantoil', '#forge:seeds/flax', 120)
 
   // Titanium Compat (Industrial Foregoing)
   event.recipes.immersiveengineering.metal_press('titanium:diamond_gear', Item.of('minecraft:diamond', 4), 'immersiveengineering:mold_gear')

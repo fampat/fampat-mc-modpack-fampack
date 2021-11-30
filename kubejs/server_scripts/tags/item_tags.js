@@ -618,7 +618,6 @@ onEvent('item.tags', event => {
   ])
 
   // IE Dust as dye like Mekanisms
-  event.add('forge:dyes', 'immersiveengineering:dust_sulfur')
   event.add('forge:dyes/yellow', 'immersiveengineering:dust_sulfur')
 
   // BetterEnd Missing Tags:
