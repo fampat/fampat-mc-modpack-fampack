@@ -214,7 +214,7 @@
 		#Allowed values: [0,)
 		"Max Drop" = 3
 		#Allowed values: [0,15]
-		"Enchant Power" = 0.5
+		"Enchant Power" = 1.0
 		#Allowed values: [0,)
 		"Min Drop" = 1
 
@@ -323,7 +323,7 @@
 		"Desert Temple Weight" = 8
 		"Dungeon Weight" = 10
 		"Item Quality" = 0
-		"Apply Cost" = 15
+		"Apply Cost" = 5
 		"Nether Fortress Weight" = 8
 
 	[tools.pickarang]
@@ -416,7 +416,7 @@
 		#Can Rotten Flesh and Poisonous Potatoes be composted?
 		"Compostable Toxins" = true
 		#Can bones be smelted down to bone meal?
-		"Bone Meal Utility" = false
+		"Bone Meal Utility" = true
 		#Can any wool color be dyed?
 		"Dye Any Wool" = true
 		#Can Coral be crafted into dye?
@@ -463,7 +463,7 @@
 		"Do Harvesting Search" = true
 		#Which crops can be harvested?
 		#Format is: "harvestState[,afterHarvest]", i.e. "minecraft:wheat[age=7]" or "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]"
-		"Harvestable Blocks" = ["minecraft:wheat[age=7]", "minecraft:carrots[age=7]", "minecraft:potatoes[age=7]", "minecraft:beetroots[age=3]", "minecraft:nether_wart[age=3]", "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]", "minecraft:cocoa[age=2,facing=south],minecraft:cocoa[age=0,facing=south]", "minecraft:cocoa[age=2,facing=east],minecraft:cocoa[age=0,facing=east]", "minecraft:cocoa[age=2,facing=west],minecraft:cocoa[age=0,facing=west]", "mysticalworld:aubergine_crop[age=7]", "farmersdelight:cabbages[age=7]", "farmersdelight:onions[age=7]", "farmersdelight:rice_upper_crop[age=3]"]
+		"Harvestable Blocks" = ["minecraft:wheat[age=7]", "minecraft:carrots[age=7]", "minecraft:potatoes[age=7]", "minecraft:beetroots[age=3]", "minecraft:nether_wart[age=3]", "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]", "minecraft:cocoa[age=2,facing=south],minecraft:cocoa[age=0,facing=south]", "minecraft:cocoa[age=2,facing=east],minecraft:cocoa[age=0,facing=east]", "minecraft:cocoa[age=2,facing=west],minecraft:cocoa[age=0,facing=west]"]
 
 	[tweaks.enhanced_ladders]
 		#Allowed values: (,0]
@@ -471,9 +471,9 @@
 
 	[tweaks.compasses_work_everywhere]
 		"Enable Nether" = true
-		"Enable Compass Nerf" = false
+		"Enable Compass Nerf" = true
 		"Enable End" = true
-		"Enable Clock Nerf" = false
+		"Enable Clock Nerf" = true
 
 	[tweaks.campfires_boost_elytra]
 		"Boost Strength" = 0.5
@@ -501,7 +501,7 @@
 	"Slime Underground Biome" = true
 	"Fairy Rings" = true
 	"Chorus Vegetation" = true
-	Crevices = false
+	Crevices = true
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = true
 	"Realistic World Gen" = true
@@ -519,7 +519,7 @@
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
-		"Chance Per Chunk" = 0.4
+		"Chance Per Chunk" = 0.8
 		"Min Mob Count" = 5
 		"Min Y" = 5
 		"Max Y" = 30
@@ -529,7 +529,7 @@
 		"Search Range" = 6
 
 		[world.monster_box.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[world.cave_crystal_underground_biome]
@@ -551,7 +551,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 42
 			#Allowed values: [0,)
-			Rarity = 250
+			Rarity = 400
 			#Allowed values: [0,255]
 			"Min Y Level" = 0
 			#Allowed values: [0,)
@@ -573,16 +573,16 @@
 				"Is Blacklist" = true
 
 			[world.cave_crystal_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.speleothems]
 		"Tries Per Chunk In Nether" = 4
-		"Speleothems Per Chunk In Nether" = 5
-		"Speleothems Per Chunk" = 5
-		"Max Ylevel" = 55
-		"Tries Per Chunk" = 45
+		"Speleothems Per Chunk In Nether" = 12
 		"Small Speleothems Increase Fall Damage" = true
+		"Speleothems Per Chunk" = 12
+		"Max Ylevel" = 55
+		"Tries Per Chunk" = 60
 
 		[world.speleothems.dimensions]
 			Dimensions = []
@@ -616,7 +616,7 @@
 				"Is Blacklist" = false
 
 			[world.sandstone_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.spiral_spires]
@@ -638,7 +638,7 @@
 				"Is Blacklist" = true
 
 			[world.spiral_spires.biomes.biomes]
-        Biomes = ["minecraft:end_highlands", "endergetic:poise_forest", "betterendforge:crystal_mountains", "betterendforge:dust_wastelands", "betterendforge:painted_mountains"]
+				Biomes = ["minecraft:end_highlands"]
 				"Is Blacklist" = false
 
 		[world.spiral_spires.dimensions]
@@ -682,9 +682,9 @@
 
 		[world.crevices.spawn_settings]
 			#Allowed values: [0,)
-			"Horizontal Size" = 30
+			"Horizontal Size" = 60
 			#Allowed values: [0,)
-			Rarity = 240
+			Rarity = 120
 			#Allowed values: [0,255]
 			"Min Y Level" = 15
 			#Allowed values: [0,)
@@ -706,21 +706,21 @@
 				"Is Blacklist" = true
 
 			[world.crevices.spawn_settings.dimensions]
-				Dimensions = ["mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.crevices.dimensions]
-			Dimensions = ["mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[world.cave_roots]
 		"Min Y" = 16
-		"Chunk Attempts" = 75
+		"Chunk Attempts" = 300
 		"Max Y" = 52
 		"Enable Brewing" = true
 
 		[world.cave_roots.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[world.new_stone_types]
@@ -729,7 +729,7 @@
 		"Enable Jasper" = true
 		"Enable Voidstone" = true
 		"Enable Slate" = true
-		"Enable Limestone" = false
+		"Enable Limestone" = true
 
 		[world.new_stone_types.marble]
 
@@ -744,7 +744,7 @@
 				"Cluster Size" = 33
 
 			[world.new_stone_types.marble.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.new_stone_types.limestone]
@@ -760,7 +760,7 @@
 				"Cluster Size" = 33
 
 			[world.new_stone_types.limestone.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.new_stone_types.myalite]
@@ -808,7 +808,7 @@
 				"Cluster Size" = 33
 
 			[world.new_stone_types.slate.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.new_stone_types.jasper]
@@ -824,7 +824,7 @@
 				"Cluster Size" = 33
 
 			[world.new_stone_types.jasper.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.spider_nest_underground_biome]
@@ -856,7 +856,7 @@
 				"Is Blacklist" = false
 
 			[world.spider_nest_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.deepslate]
@@ -865,8 +865,8 @@
 		"Sheet Height" = 18
 
 		[world.deepslate.dimensions]
-			Dimensions = []
-			"Is Blacklist" = false
+			Dimensions = ["minecraft:overworld"]
+			"Is Blacklist" = true
 
 	[world.blossom_trees]
 
@@ -889,7 +889,7 @@
 					"Is Blacklist" = true
 
 			[world.blossom_trees.orange.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.red]
@@ -911,7 +911,7 @@
 					"Is Blacklist" = true
 
 			[world.blossom_trees.red.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.pink]
@@ -933,7 +933,7 @@
 					"Is Blacklist" = true
 
 			[world.blossom_trees.pink.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.blue]
@@ -955,7 +955,7 @@
 					"Is Blacklist" = true
 
 			[world.blossom_trees.blue.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.yellow]
@@ -977,7 +977,7 @@
 					"Is Blacklist" = true
 
 			[world.blossom_trees.yellow.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.blossom_trees.lavender]
@@ -999,16 +999,16 @@
 					"Is Blacklist" = true
 
 			[world.blossom_trees.lavender.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.mega_caves]
 
 		[world.mega_caves.spawn_settings]
 			#Allowed values: [0,)
-			"Horizontal Size" = 40
+			"Horizontal Size" = 80
 			#Allowed values: [0,)
-			Rarity = 1600
+			Rarity = 800
 			#Allowed values: [0,255]
 			"Min Y Level" = 10
 			#Allowed values: [0,)
@@ -1016,7 +1016,7 @@
 			#Allowed values: [0,255]
 			"Max Y Level" = 20
 			#Allowed values: [0,)
-			"Vertical Size" = 15
+			"Vertical Size" = 25
 			#Allowed values: [0,)
 			"Vertical Variation" = 10
 
@@ -1030,11 +1030,11 @@
 				"Is Blacklist" = true
 
 			[world.mega_caves.spawn_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.mega_caves.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[world.elder_prismarine_underground_biome]
@@ -1069,7 +1069,7 @@
 				"Is Blacklist" = false
 
 			[world.elder_prismarine_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.glowshroom_underground_biome]
@@ -1106,19 +1106,19 @@
 				"Is Blacklist" = false
 
 			[world.glowshroom_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.big_stone_clusters]
 		#Blocks that stone clusters can replace. If you want to make it so it only replaces in one dimension,
 		#do "block|dimension", as we do for netherrack and end stone by default.
-		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack", "minecraft:end_stone", "quark:marble", "quark:jasper", "quark:slate", "quark:voidstone"]
+		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate", "quark:basalt"]
 
 		[world.big_stone_clusters.marble]
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
-			Rarity = 12
+			Rarity = 4
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,)
@@ -1139,7 +1139,7 @@
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
 					# beach, void, overworld, nether, end]
-					"Biome Types" = ["plains", "snowy", "mountain", "cold"]
+					"Biome Types" = ["plains"]
 					"Is Blacklist" = false
 
 				[world.big_stone_clusters.marble.biomes.biomes]
@@ -1147,19 +1147,19 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.marble.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.limestone]
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
-			Rarity = 12
+			Rarity = 4
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,255]
 			"Max Y Level" = 80
 			#Allowed values: [0,)
@@ -1183,7 +1183,7 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.limestone.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.granite]
@@ -1219,7 +1219,7 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.granite.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.myalite]
@@ -1252,7 +1252,7 @@
 					"Is Blacklist" = true
 
 				[world.big_stone_clusters.myalite.biomes.biomes]
-					Biomes = ["minecraft:end_highlands", "endergetic:poise_forest", "betterendforge:crystal_mountains", "betterendforge:dust_wastelands", "betterendforge:painted_mountains"]
+					Biomes = ["minecraft:end_highlands"]
 					"Is Blacklist" = false
 
 			[world.big_stone_clusters.myalite.dimensions]
@@ -1288,7 +1288,7 @@
 					"Is Blacklist" = true
 
 				[world.big_stone_clusters.voidstone.biomes.biomes]
-					Biomes = ["minecraft:end_highlands", "minecraft:end_midlands", "minecraft:end_barrens", "endergetic:poise_forest", "betterendforge:chorus_forest", "betterendforge:dust_wastelands", "betterendforge:shadow_forest", "betterendforge:painted_mountains"]
+					Biomes = ["minecraft:end_highlands", "minecraft:end_midlands", "minecraft:end_barrens"]
 					"Is Blacklist" = false
 
 			[world.big_stone_clusters.voidstone.dimensions]
@@ -1304,7 +1304,7 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,255]
 			"Max Y Level" = 80
 			#Allowed values: [0,)
@@ -1328,14 +1328,14 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.andesite.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.slate]
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
-			Rarity = 12
+			Rarity = 4
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,)
@@ -1364,7 +1364,7 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.slate.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.diorite]
@@ -1376,7 +1376,7 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = false
+			Enabled = true
 			#Allowed values: [0,255]
 			"Max Y Level" = 80
 			#Allowed values: [0,)
@@ -1400,14 +1400,14 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.diorite.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.jasper]
 			#Allowed values: [0,)
 			"Horizontal Size" = 14
 			#Allowed values: [0,)
-			Rarity = 12
+			Rarity = 4
 			#Allowed values: [0,255]
 			"Min Y Level" = 20
 			#Allowed values: [0,)
@@ -1436,7 +1436,7 @@
 					"Is Blacklist" = true
 
 			[world.big_stone_clusters.jasper.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.overgrown_underground_biome]
@@ -1445,9 +1445,9 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 60
+			Rarity = 80
 			#Allowed values: [0,255]
-			"Min Y Level" = 25
+			"Min Y Level" = 0
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1467,7 +1467,7 @@
 				"Is Blacklist" = false
 
 			[world.overgrown_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.permafrost_underground_biome]
@@ -1498,7 +1498,7 @@
 				"Is Blacklist" = false
 
 			[world.permafrost_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.lush_underground_biome]
@@ -1507,9 +1507,9 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 60
+			Rarity = 80
 			#Allowed values: [0,255]
-			"Min Y Level" = 20
+			"Min Y Level" = 0
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1529,7 +1529,7 @@
 				"Is Blacklist" = false
 
 			[world.lush_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.brimstone_underground_biome]
@@ -1560,14 +1560,14 @@
 				"Is Blacklist" = false
 
 			[world.brimstone_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 	[world.big_dungeon]
 		"Loot Table" = "minecraft:chests/simple_dungeon"
 		#The chance that a big dungeon spawn candidate will be allowed to spawn. 0.2 is 20%, which is the same as the Pillager Outpost.
 		"Spawn Chance" = 0.1
-		"Max Rooms" = 8
+		"Max Rooms" = 10
 		"Chest Chance" = 0.5
 
 		[world.big_dungeon.biome_config]
@@ -1582,7 +1582,7 @@
 				"Is Blacklist" = true
 
 			[world.big_dungeon.biome_config.biomes]
-				Biomes = ["betterendforge:sulphur_springs", "betterendforge:dust_wastelands", "betterendforge:chorus_forest", "betterendforge:shadow_forest", "betterendforge:dry_shrubland", "betterendforge:amber_land", "betterendforge:lantern_woods", "betterendforge:crystal_mountains", "betterendforge:megalake_grove", "betterendforge:ice_starfield", "betterendforge:painted_mountains", "betterendforge:umbrella_jungle", "betterendforge:glowing_grasslands", "betterendforge:blossoming_spires", "betterendforge:neon_oasis"]
+				Biomes = []
 				"Is Blacklist" = true
 
 	[world.chorus_vegetation]
@@ -1594,21 +1594,21 @@
 		"Midlands Chance" = 0.2
 		"Endermite Spawn Chance" = 0.01
 		"Passive Teleport Chance" = 0.2
-		"Other End Biomes Chance" = 0.1
+		"Other End Biomes Chance" = 0.0
 
 	[world.fairy_rings]
-		"Forest Chance" = 0.00625
-		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore", "druidcraft:moonstone_ore", "mysticalworld:amethyst_ore"]
-		"Plains Chance" = 0.0025
+		"Forest Chance" = 0.0125
+		Ores = ["minecraft:emerald_ore", "minecraft:diamond_ore"]
+		"Plains Chance" = 0.005
 
 		[world.fairy_rings.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[world.underground_clay]
 
 		[world.underground_clay.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 		[world.underground_clay.ore_settings]
@@ -1649,7 +1649,7 @@
 				"Is Blacklist" = false
 
 			[world.slime_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+				Dimensions = ["minecraft:overworld"]
 				"Is Blacklist" = false
 
 [mobs]
@@ -1688,7 +1688,7 @@
 					"Is Blacklist" = true
 
 		[mobs.toretoise.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[mobs.crabs]
@@ -1696,7 +1696,7 @@
 
 		[mobs.crabs.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 9
+			"Spawn Weight" = 5
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
@@ -1829,7 +1829,7 @@
 					"Is Blacklist" = true
 
 		[mobs.stonelings.dimensions]
-			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld"]
 			"Is Blacklist" = false
 
 	[mobs.forgotten]
@@ -1935,8 +1935,8 @@
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
-		"Dark Souls Mode" = false
-		"Spawn Totem on PVP Kill" = true
+		"Dark Souls Mode" = true
+		"Spawn Totem on PVP Kill" = false
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false
 		"Enable Soul Compass" = true
@@ -2036,20 +2036,14 @@
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
 		"Nerf Mending" = false
-		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
-		"Nerf Villager Discount" = false
 		#Makes Iron Golems not drop Iron Ingots
 		"Disable Iron Farms" = false
-		#Makes Boats not glide on ice
-		"Disable Ice Roads" = false
 		#Makes Sheep not drop Wool when killed
 		"Disable Wool Drops" = false
-
-	[experimental.overlay_shader]
-		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).
-		#Some useful shaders include 'desaturate', 'oversaturate', 'bumpy'
-		#Colorblind simulation shaders are available in the form of 'deuteranopia', 'protanopia', 'tritanopia', and 'achromatopsia'
-		Shader = "none"
+		#Makes Boats not glide on ice
+		"Disable Ice Roads" = false
+		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
+		"Nerf Villager Discount" = false
 
 	[experimental.shiba]
 
