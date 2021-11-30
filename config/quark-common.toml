@@ -237,7 +237,7 @@
 		#Play a click when sorting inventories using keybindings
 		"Satisfying Click" = true
 		"Enable Chests" = true
-		"Enable Player Inventory In Chests" = true
+		"Enable Player Inventory In Chests" = false
 		"Enable Player Inventory" = false
 
 	[management.easy_transfering]
