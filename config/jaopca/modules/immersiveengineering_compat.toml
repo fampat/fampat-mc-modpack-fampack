@@ -16,4 +16,6 @@
 	toWireMaterialBlacklist = []
 	#The materials that should not have hammering recipes added.
 	hammerToPlateMaterialBlacklist = ["brass"]
+	#The materials that should not have press to plate recipes added.
+	toPlateMaterialBlacklist = []
 
