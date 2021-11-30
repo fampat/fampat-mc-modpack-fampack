@@ -60,7 +60,7 @@
 		#Color of HUD used by MekaSuit.
 		hudColor = 4257264
 		#Display a fancy compass when the MekaSuit is worn.
-		mekaSuitHelmetCompass = true
+		mekaSuitHelmetCompass = false
 		#Opacity of HUD used by MekaSuit.
 		#Range: 0.0 ~ 1.0
 		hudOpacity = 0.4000000059604645

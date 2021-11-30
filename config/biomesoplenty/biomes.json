@@ -1,16 +1,16 @@
 {
   "standard_weights": {
     "biomesoplenty:alps": {
-      "weight": 5
+      "weight": 4
     },
     "biomesoplenty:bayou": {
-      "weight": 10
+      "weight": 0
     },
     "biomesoplenty:cherry_blossom_grove": {
-      "weight": 1
+      "weight": 0
     },
     "biomesoplenty:cold_desert": {
-      "weight": 7
+      "weight": 4
     },
     "biomesoplenty:coniferous_forest": {
       "weight": 10
@@ -19,7 +19,7 @@
       "weight": 5
     },
     "biomesoplenty:dead_forest": {
-      "weight": 3
+      "weight": 1
     },
     "biomesoplenty:dryland": {
       "weight": 3
@@ -40,13 +40,13 @@
       "weight": 1
     },
     "biomesoplenty:lavender_field": {
-      "weight": 3
+      "weight": 0
     },
     "biomesoplenty:lush_desert": {
       "weight": 1
     },
     "biomesoplenty:marsh": {
-      "weight": 7
+      "weight": 2
     },
     "biomesoplenty:meadow": {
       "weight": 7
@@ -61,28 +61,28 @@
       "weight": 1
     },
     "biomesoplenty:prairie": {
-      "weight": 7
-    },
-    "biomesoplenty:rainforest": {
-      "weight": 7
-    },
-    "biomesoplenty:redwood_forest": {
       "weight": 5
     },
+    "biomesoplenty:rainforest": {
+      "weight": 2
+    },
+    "biomesoplenty:redwood_forest": {
+      "weight": 6
+    },
     "biomesoplenty:scrubland": {
-      "weight": 7
+      "weight": 6
     },
     "biomesoplenty:seasonal_forest": {
-      "weight": 7
+      "weight": 2
     },
     "biomesoplenty:shrubland": {
-      "weight": 7
+      "weight": 6
     },
     "biomesoplenty:snowy_coniferous_forest": {
       "weight": 5
     },
     "biomesoplenty:tundra": {
-      "weight": 7
+      "weight": 3
     },
     "biomesoplenty:undergrowth": {
       "weight": 10
@@ -94,7 +94,7 @@
       "weight": 1
     },
     "biomesoplenty:wetland": {
-      "weight": 10
+      "weight": 5
     },
     "biomesoplenty:withered_abyss": {
       "weight": 3
@@ -174,7 +174,7 @@
     },
     "biomesoplenty:grassland_clover_patch": {
       "weight": 100,
-      "rarity": 1.0
+      "rarity": 0.8
     },
     "biomesoplenty:grove_clearing": {
       "weight": 100,
@@ -324,10 +324,10 @@
       "weight": 10
     },
     "minecraft:plains": {
-      "weight": 10
+      "weight": 14
     },
     "minecraft:savanna": {
-      "weight": 10
+      "weight": 8
     },
     "minecraft:snowy_taiga": {
       "weight": 7

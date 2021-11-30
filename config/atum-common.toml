@@ -279,5 +279,5 @@
 		weight = 6
 
 ["mod integration"]
-	theoneprobe = true
+	theoneprobe = false
 
