@@ -7,7 +7,7 @@
 	#
 	#Enable/disable generation of the central island.
 	#Default value: false
-	generateCentralIsland = false
+	generateCentralIsland = true
 	#
 	#Enable/disable custom chorus plant (set this to false if you experience block shifting issues)
 	#Default value: true
@@ -19,7 +19,7 @@
 	#
 	#Land biome map size.
 	#Default value: 256
-	biomeSizeLand = 256
+	biomeSizeLand = 160
 	#
 	#Enable/disable obsidian pillars generation.
 	#Default value: true
@@ -47,7 +47,7 @@
 	#
 	#Set the chance for end city generation to fail. Higher values means lower chance of spawning
 	#Default value: 5
-	endCityGenerationFailChance = 5
+	endCityGenerationFailChance = 2
 	#
 	#Enable/disable BetterEnd integration with vanilla End biome provider.
 	#This allows BetterEnd to inject its own biome generation infos into the vanilla EndBiomeProvider,
@@ -58,7 +58,7 @@
 	#
 	#Void biome map size.
 	#Default value: 256
-	biomeSizeVoid = 256
+	biomeSizeVoid = 128
 
 [Other]
 	#
