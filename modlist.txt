@@ -1,0 +1,46 @@
+- JEI: https://www.curseforge.com/minecraft/mc-mods/jei
+- Mouse Tweaks: https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks
+- Journey-Map: https://www.curseforge.com/minecraft/mc-mods/journeymap
+- Clumps: https://www.curseforge.com/minecraft/mc-mods/clumps
+- Controlling: https://www.curseforge.com/minecraft/mc-mods/controlling
+- Iron Chests: https://www.curseforge.com/minecraft/mc-mods/iron-chests
+- Waystones: https://www.curseforge.com/minecraft/mc-mods/waystones
+- Just Enough Resources (JER): https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer
+- Better Advancements: https://www.curseforge.com/minecraft/mc-mods/better-advancements
+- MrCrayfish's Furniture Mod: https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod
+- Cooking for Blockheads: https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads
+- Crafting Tweaks: https://www.curseforge.com/minecraft/mc-mods/crafting-tweaks
+- Cosmetic Armor Reworked: https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked
+- Bottle Your Xp (Forge): https://www.curseforge.com/minecraft/mc-mods/bottle-your-xp
+- Inventory HUD+: https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge
+- Light Overlay (Rift/Forge/Fabric): https://www.curseforge.com/minecraft/mc-mods/light-overlay
+- TrashSlot: https://www.curseforge.com/minecraft/mc-mods/trashslot
+- KubeJS: https://www.curseforge.com/minecraft/mc-mods/kubejs-forge
+- Lazy DataFixerUpper(LazyDFU) [FORGE]: https://www.curseforge.com/minecraft/mc-mods/lazy-dfu-forge
+- Corpse: https://www.curseforge.com/minecraft/mc-mods/corpse
+- Goblin Traders: https://www.curseforge.com/minecraft/mc-mods/goblin-traders
+- Jade: https://www.curseforge.com/minecraft/mc-mods/jade
+- Trash Cans: https://www.curseforge.com/minecraft/mc-mods/trash-cans
+- BetterF3: https://www.curseforge.com/minecraft/mc-mods/betterf3
+- Waddles: https://www.curseforge.com/minecraft/mc-mods/waddles
+- Inventory Sorter: https://www.curseforge.com/minecraft/mc-mods/inventory-sorter
+- Iron Furnaces [FORGE]: https://www.curseforge.com/minecraft/mc-mods/iron-furnaces
+- Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons: https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials
+- Void Totem: https://www.curseforge.com/minecraft/mc-mods/voidtotem
+- Item Collectors: https://www.curseforge.com/minecraft/mc-mods/item-collectors
+- Chunk Loaders: https://www.curseforge.com/minecraft/mc-mods/chunk-loaders
+- Macaw's Lights and Lamps: https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps
+- Tom's Simple Storage Mod: https://www.curseforge.com/minecraft/mc-mods/toms-storage
+- Essentials: https://www.curseforge.com/minecraft/mc-mods/essentials
+- Packing Tape: https://www.curseforge.com/minecraft/mc-mods/packing-tape
+- Gobber [FORGE]: https://www.curseforge.com/minecraft/mc-mods/gobber
+- Chalk: https://www.curseforge.com/minecraft/mc-mods/chalk
+- Curios: https://www.curseforge.com/minecraft/mc-mods/curios
+- Rings of Ascension (Forge): https://www.curseforge.com/minecraft/mc-mods/rings-of-ascension
+- Rapid Leaf Decay: https://www.curseforge.com/minecraft/mc-mods/rapid-leaf-decay
+- TelePass: https://www.curseforge.com/minecraft/mc-mods/telepass
+- Stack Refill (Forge): https://www.curseforge.com/minecraft/mc-mods/stack-refill
+- Plain Grinder: https://www.curseforge.com/minecraft/mc-mods/plain-grinder
+- Wooden Hopper: https://www.curseforge.com/minecraft/mc-mods/wooden-hopper
+- Brick Hopper: https://www.curseforge.com/minecraft/mc-mods/brick-hopper
+- Easy Magic [Forge]: https://www.curseforge.com/minecraft/mc-mods/easy-magic
