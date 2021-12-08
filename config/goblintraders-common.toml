@@ -25,7 +25,7 @@
 		canAttackBack = true
 		#Goblins will make a grunt noise while walking around. If you find it happening too often, you can increase the interval. Value is represented in ticks.
 		#Range: 1 ~ 1000
-		gruntNoiseInterval = 80
+		gruntNoiseInterval = 120
 
 	#Vein Goblin Trader settings
 	[common.vein_goblin_trader]
@@ -48,5 +48,5 @@
 		canAttackBack = true
 		#Goblins will make a grunt noise while walking around. If you find it happening too often, you can increase the interval. Value is represented in ticks.
 		#Range: 1 ~ 1000
-		gruntNoiseInterval = 80
+		gruntNoiseInterval = 120
 
