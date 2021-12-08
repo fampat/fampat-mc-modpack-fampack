@@ -8,7 +8,7 @@ settings.logErroringRecipes = true
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
 onEvent('recipes', event => {
-    // Nothing here yet
+    // Nothing yet: https://mods.latvian.dev/books/kubejs/page/recipeeventjs
 })
 
 onEvent('item.tags', event => {

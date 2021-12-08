@@ -11,6 +11,7 @@
 *.rar
 
 # Minecraft client specific
+/journeymap
 /Xaero*/
 /options*
 /servers.dat*
