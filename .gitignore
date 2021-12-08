@@ -10,6 +10,7 @@
 *.rar
 
 # Minecraft client specific
+/defaultdatapacks
 /eula.txt
 /server.properties
 /*.json
@@ -29,3 +30,4 @@
 /world
 /backups
 /local
+/run.*

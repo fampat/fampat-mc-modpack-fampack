@@ -8,19 +8,7 @@ settings.logErroringRecipes = true
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
 onEvent('recipes', event => {
-    event.remove({output: 'plaingrinder:dust_diamond'})
-
-	// Change recipes here
-    //event.custom({
-    //    type: 'plaingrinder:grinder',
-	//    input: {
-	//	    tag: 'forge:ores/diamond'
-	//    },
-    //    result: {
-    //        item: 'plaingrinder:dust_diamond',
-    //        count: 3
-    //    }
-    //})
+    // Nothing yet: https://mods.latvian.dev/books/kubejs/page/recipeeventjs
 })
 
 onEvent('item.tags', event => {
