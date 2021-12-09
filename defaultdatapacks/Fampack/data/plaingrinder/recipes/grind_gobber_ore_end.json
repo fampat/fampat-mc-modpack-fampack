@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "gobber2:gobber2_ore_end"
+  },
+  "result": {
+    "item": "gobber2:gobber2_glob_end",
+    "count": 12
+  }
+}

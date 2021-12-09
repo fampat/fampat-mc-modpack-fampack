@@ -10,7 +10,6 @@
 *.rar
 
 # Minecraft client specific
-/defaultdatapacks
 /journeymap
 /eula.txt
 /server.properties

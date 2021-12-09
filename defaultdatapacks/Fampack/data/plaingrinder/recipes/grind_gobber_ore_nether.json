@@ -1,0 +1,10 @@
+{
+  "type": "plaingrinder:grinder",
+  "input": {
+    "item": "gobber2:gobber2_ore_nether"
+  },
+  "result": {
+    "item": "gobber2:gobber2_glob_nether",
+    "count": 12
+  }
+}
