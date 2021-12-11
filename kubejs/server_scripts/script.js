@@ -9,6 +9,9 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 onEvent('recipes', event => {
     // Explenaition: https://mods.latvian.dev/books/kubejs/page/recipeeventjs
+     event.remove({id: 'ironchest:diamond_to_crystal_chest_upgrade'})
+     event.remove({id: 'ironchest:crystal_chest'})
+     event.remove({id: 'ironchest:trapped_crystal_chest'})
 })
 
 onEvent('item.tags', event => {
