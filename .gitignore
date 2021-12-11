@@ -31,3 +31,6 @@ config/xaerominimap_entities.json
 config/xaerominimap.txt
 config/jei/bookmarks.ini
 config/inventoryhud-client.toml
+config/xaeroworldmap.txt
+config/jei/world/server/Minecraft_Server_b512703d/worldSettings.cfg
+config/xaeropatreon.txt
