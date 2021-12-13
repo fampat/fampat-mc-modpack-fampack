@@ -34,3 +34,5 @@ config/inventoryhud-client.toml
 config/xaeroworldmap.txt
 config/jei/world/server/Minecraft_Server_b512703d/worldSettings.cfg
 config/xaeropatreon.txt
+config/jei/world/server/Minecraft_Server_b512703d/bookmarks.ini
+config/jei/world/server/Minecraft_Server_b512703d/worldSettings.cfg
