@@ -10,7 +10,7 @@
 #Crafting grid tool repair configuration options.
 ["Grid Repair"]
 	#Makes it so shovels need 50% less material to repair.
-	cheapShovel = false
+	cheapShovel = true
 	#How much material required to fully repair a tool.
 	#Range: 1 ~ 8
 	cost = 2
