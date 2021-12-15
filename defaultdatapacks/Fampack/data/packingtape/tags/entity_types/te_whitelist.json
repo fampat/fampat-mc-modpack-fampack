@@ -1,0 +1,7 @@
+{
+    "values": [
+        { "id": "#forge:movable", "required": false },
+        { "id": "#forge:relocation_supported", "required": false },
+        { "id": "minecraft:mob_spawner", "required": false }
+    ]
+}
