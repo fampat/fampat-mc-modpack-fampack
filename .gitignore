@@ -32,3 +32,4 @@
 /local
 /run.*
 /config/jei/world/server/*
+/config/jei/world/local/*
