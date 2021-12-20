@@ -4,7 +4,7 @@
 	Enable = true
 	#Sets the maximum height the sugar cane can grow to.
 	#Range: 0 ~ 255
-	MaxHeight = 5
+	MaxHeight = 6
 	#Sets the maximum age value the sugar cane will grow to.
 	#Range: 0 ~ 15
 	MaxAge = 12
@@ -22,7 +22,7 @@
 	Enable = true
 	#Sets the maximum height the cactus can grow to.
 	#Range: 0 ~ 255
-	MaxHeight = 4
+	MaxHeight = 5
 	#Sets the maximum age value the cactus will grow to.
 	#Range: 0 ~ 15
 	MaxAge = 12

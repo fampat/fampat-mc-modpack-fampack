@@ -1,0 +1,8 @@
+
+#Inventory sorter blacklists
+[blacklists]
+	#Container blacklist
+	containerBlacklist = ["immersiveengineering:craftingtable"]
+	#Slot type blacklist
+	slotBlacklist = []
+

@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:crusher",
+    "secondaries": [
+      {
+        "chance": 0.33333334,
+        "output": {
+          "item": "gobber2:gobber2_globette",
+          "count": 3
+        }
+      }
+    ],
+    "result": {
+      "item": "gobber2:gobber2_globette",
+      "count": 14
+    },
+    "input": {
+        "item": "gobber2:gobber2_ore"
+    },
+    "energy": 12800
+  }
