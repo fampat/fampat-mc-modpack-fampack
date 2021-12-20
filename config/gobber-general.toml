@@ -10,6 +10,8 @@
 	#Minimal height for Gobber Lucky Block Nether pocket generation, [0-255, default: 1]
 	#Range: 0 ~ 255
 	gobberLuckyBlockNetherMinHeight = 1
+	#Generate Gobber Lucky Block Nether in the world [true / false]
+	gobberLuckyBlockNetherGeneration = true
 	#Chances of Gobber Lucky Block Nether pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
 	gobberLuckyBlockNetherChance = 20
@@ -117,6 +119,8 @@
 	#Chances of Gobber Ore Deepslate pocket being generated [0-30, default: 20]
 	#Range: 0 ~ 30
 	gobberOreDeepslateChance = 20
+	#Generate Gobber Ore Deepslate in the world [true / false]
+	gobberOreDeepslateGeneration = true
 	#Size of Gobber Ore Deepslate pockets [0-100, default: 4]
 	#Range: 0 ~ 100
 	gobberOreDeepslateSize = 4
@@ -237,6 +241,8 @@
 	#Maximal height for Gobber Lucky Block pocket generation [0-384, default: 255]
 	#Range: 0 ~ 384
 	gobberLuckyBlockMaxHeight = 255
+	#Generate Gobber Lucky Block in the world [true / false]
+	gobberLuckyBlockGeneration = true
 
 #Nether Gobber Tool Material Values
 [nether_gobber_tool_material]
@@ -249,9 +255,6 @@
 	#Nether Gobber tool mining speed [1-25, default: 12.0]
 	#Range: 1.0 ~ 25.0
 	netherGobberToolsSpeed = 12.0
-	#Nether Gobber tool mining level [1-6, default: 5]
-	#Range: 1 ~ 6
-	netherGobberToolsMiningLevel = 5
 	#Nether Gobber tool enchantability [0-50, default: 25]
 	#Range: 1 ~ 50
 	netherGobberToolsEnchantability = 25
@@ -281,6 +284,8 @@
 	#Maximal height for Gobber Ore pocket generation [0-255, default: 30]
 	#Range: 0 ~ 384
 	gobberOreMaxHeight = 30
+	#Generate Gobber Ore in the world [true / false]
+	gobberOreGeneration = true
 	#Size of Gobber Ore pockets [0-100, default: 4]
 	#Range: 0 ~ 100
 	gobberOreSize = 4
@@ -293,6 +298,8 @@
 	#Minimal height for Gobber End Ore pocket generation, [0-255, default: 40]
 	#Range: 0 ~ 255
 	gobberOreEndMinHeight = 0
+	#Generate Gobber End Ore in the world [true / false]
+	gobberOreEndGeneration = true
 	#Size of Gobber End Ore pockets [0-100, default: 9]
 	#Range: 0 ~ 100
 	gobberOreEndSize = 9
@@ -323,7 +330,7 @@
 	#Range: 1 ~ 200
 	netherGobberArmorDurabilityMultiplier = 83
 
-#Ring of the Exploer Settings
+#Ring of the Explorer Settings
 [ring_explorer_settings]
 	#Ring of Explorer - Max distance from world spawn to begin searching for a spot [default: 6000]
 	#Range: 0 ~ 250000
@@ -346,15 +353,14 @@
 	#Maximal height for Gobber Lucky Block Deepslate pocket generation [-64 to 0, default: 0]
 	#Range: -64 ~ 0
 	gobberLuckyBlockDeepslateMaxHeight = 0
+	#Generate Gobber Lucky Block Deepslate in the world [true / false]
+	gobberLuckyBlockDeepslateGeneration = true
 
 #Gobber Tool Material Values
 [gobber_tool_material]
 	#Gobber tool enchantability [0-50, default: 20]
 	#Range: 1 ~ 50
 	gobberToolsEnchantability = 20
-	#Gobber tool mining level [1-6, default: 4]
-	#Range: 1 ~ 6
-	gobberToolsMiningLevel = 4
 	#Gobber tool durability [1-9000, default: 3800]
 	#Range: 0 ~ 9000
 	gobberToolsDurability = 3800
@@ -378,9 +384,6 @@
 	#End Gobber tool attack damage [1-100, default: 1.0]
 	#Range: 1.0 ~ 100.0
 	endGobberToolsDamage = 1.0
-	#End Gobber tool mining level [1-6, default: 5]
-	#Range: 1 ~ 6
-	endGobberToolsMiningLevel = 5
 	#End Gobber tool mining speed [1-25, default: 14.0]
 	#Range: 1.0 ~ 25.0
 	endGobberToolsSpeed = 14.0
@@ -413,6 +416,8 @@
 	#Minimal height for Gobber Nether Ore pocket generation, [0-255, default: 5]
 	#Range: 0 ~ 255
 	gobberOreNetherMinHeight = 5
+	#Generate Gobber Nether Ore in the world [true / false]
+	gobberOreNetherGeneration = true
 	#Size of Gobber Nether Ore pockets [0-100, default: 3]
 	#Range: 0 ~ 100
 	gobberOreNetherSize = 4

@@ -14,5 +14,5 @@
 	timerCooldown = 5
 	#
 	#Can the handle break if its used too many times while the input is empty
-	breakableHandle = false
+	breakableHandle = true
 

@@ -40,5 +40,10 @@
     "item_mod_name": false,
     "mod_name": true,
     "entity_hp": true
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "display.content": true,
+    "display.status": true
   }
 }
