@@ -10,8 +10,11 @@ After=network.target
 
 [Service]
 Type=simple
+User=minecraft
+Group=minecraft
 ExecStart=/usr/bin/bash /home/minecraft/Fampack/cfg/scripts/startup.bash
 TimeoutStartSec=0
+RemainAfterExit=yes
 
 [Install]
 WantedBy=default.target
