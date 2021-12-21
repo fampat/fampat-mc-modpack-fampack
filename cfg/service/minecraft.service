@@ -10,7 +10,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/bash /usr/home/minecraft/Fampack/cfg/scripts/startup.bash
+ExecStart=/usr/bin/bash /home/minecraft/Fampack/cfg/scripts/startup.bash
 TimeoutStartSec=0
 
 [Install]
