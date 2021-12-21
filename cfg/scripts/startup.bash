@@ -1,9 +1,7 @@
 #!/bin/bash
 
-RUNNING_SCREEN=$(screen -ls | grep -e 'pts.*minecraft')
+RUNNING_SCREEN=$(screen -ls | grep 'minecraft')
 
 if [[ ! -z RUNNING_SCREEN ]]; then
-    screen -d -m
-    sleep 5s
-    screen -S $(screen -ls | grep -e 'pts.*minecraft' | awk '{ print $1 }') -p 0 -X stuff "cd /home/minecraft/Fampack && ./run.sh^M"
+    screen -dm bash -c "cd /home/minecraft/Fampack && ./run.sh"
 fi
