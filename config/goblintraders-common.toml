@@ -14,7 +14,7 @@
 		traderSpawnDelay = 28000
 		#The minimum level the trader can spawn
 		#Range: 0 ~ 256
-		traderMinSpawnLevel = -48
+		traderMinSpawnLevel = 0
 		#The maximum level the trader can spawn
 		#Range: 0 ~ 256
 		traderMaxSpawnLevel = 146
