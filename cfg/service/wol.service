@@ -1,0 +1,15 @@
+# cp wol.service /etc/systemd/system
+# chmod +x /etc/systemd/system/wol.service
+# systemctl daemon-reload
+# systemctl enable wol.service
+# systemctl start wol.service
+
+[Unit]
+Description=Start Wake On LAN
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/ethtool -s enp3s0 wol g
+
+[Install]
+WantedBy=basic.target
