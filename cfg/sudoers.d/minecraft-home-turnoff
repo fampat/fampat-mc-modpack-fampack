@@ -1,0 +1,5 @@
+# Sudoers file for shutting down the minecraft home-server
+# In case of exceptions you can become sudo by "pkexec visudo" and remove line "#includedir /etc/sudoers.d"
+
+# update hosting-tools (self-update) ...
+minecraft ALL = NOPASSWD: /usr/bin/bash /home/minecraft/Fampack/cfg/scripts/shutdown.bash*

@@ -1,5 +1,2 @@
 # Shutdown minecraft (graceful) on sunday-thursday at 22:50
-50 22 * * 0-4 minecraft /usr/bin/bash /home/minecraft/Fampack/cfg/scripts/shutdown.bash
-
-# Shutdown the server on sunday-thursday at 23:00
-0 23 * * 0-4 root /usr/sbin/shutdown now -h
+0 23 * * 0-4 minecraft sudo /usr/bin/bash /home/minecraft/Fampack/cfg/scripts/shutdown.bash turnoff

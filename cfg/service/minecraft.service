@@ -13,6 +13,7 @@ Type=simple
 User=minecraft
 Group=minecraft
 ExecStart=/usr/bin/bash /home/minecraft/Fampack/cfg/scripts/startup.bash
+ExecStop=/usr/bin/bash /home/minecraft/Fampack/cfg/scripts/shutdown.bash
 TimeoutStartSec=0
 RemainAfterExit=yes
 
