@@ -4,12 +4,13 @@
 RUNNING_SCREEN=$(screen -ls | grep -e '[/d]*\.minecraft')
 
 # In case we have running minecraft-screens...
-if [[ ! -z RUNNING_SCREEN ]]; then
+if [[ ! -z $RUNNING_SCREEN ]]; then
     # ... Check if someone is playing...
+    screen -S $(screen -ls | grep -e '[/d]*\.minecraft' | awk '{ print $1 }') -X stuff "list^M"
     SERVER_EMPTY=$(screen -S $(screen -ls | grep -e '[/d]*\.minecraft' | awk '{ print $1 }') -X hardcopy /tmp/minecraft-screen.log && tail /tmp/minecraft-screen.log | grep 'There are 0')
 
     # ... if no-one is playing, continue...
-    if [[ ! -z SERVER_EMPTY ]]; then
+    if [[ ! -z $SERVER_EMPTY ]]; then
         # ... Stop the minecraft instance gracefully
         echo '>>> Stopping Minecraft server and waiting 5 minutes for completion...'
         screen -S $(screen -ls | grep -e '[/d]*\.minecraft' | awk '{ print $1 }') -X stuff "stop^M"
