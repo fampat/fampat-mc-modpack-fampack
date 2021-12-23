@@ -7,6 +7,7 @@ RUNNING_SCREEN=$(screen -ls | grep -e '[/d]*\.minecraft')
 if [[ ! -z $RUNNING_SCREEN ]]; then
     # ... Check if someone is playing...
     screen -S $(screen -ls | grep -e '[/d]*\.minecraft' | awk '{ print $1 }') -X stuff "list^M"
+    sleep 3s
     SERVER_EMPTY=$(screen -S $(screen -ls | grep -e '[/d]*\.minecraft' | awk '{ print $1 }') -X hardcopy /tmp/minecraft-screen.log && tail /tmp/minecraft-screen.log | grep 'There are 0')
 
     # ... if no-one is playing, continue...
