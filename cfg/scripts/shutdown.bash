@@ -12,20 +12,20 @@ if [[ ! -z $RUNNING_SCREEN ]]; then
     # ... if no-one is playing, continue...
     if [[ ! -z $SERVER_EMPTY ]]; then
         # ... Stop the minecraft instance gracefully
-        echo '>>> Stopping Minecraft server and waiting 5 minutes for completion...'
+        echo '>>> Stopping Minecraft server and waiting for completion...'
         screen -S $(screen -ls | grep -e '[/d]*\.minecraft' | awk '{ print $1 }') -X stuff "stop^M"
         
-        # Aggange some time for saving
-        sleep 5m
+        #Wait for the world to be saved
+        while [ ! -z $(screen -ls | grep -e '[/d]*\.minecraft' | awk '{ print $1 }') ]
+        do
+            sleep 5s
+        done
+       
+        echo '>>> Minecraft server saved and stopped...'
 
-        # End the screen session
-        echo '>>> Ending Minecraft screen session...'
-        screen -S $(screen -ls | grep -e '[/d]*\.minecraft' | awk '{ print $1 }') -X stuff "exit^M"
-        
         # If a param is present, also shutdown the system
         if [[ "$1" = "turnoff" ]]; then
-            echo '>>> Shutting down the Minecraft home-server...'
-            sleep 10s
+            echo '>>> Shutting down the Minecraft home-server machine...'
             sudo /usr/sbin/shutdown now -h
         fi
     fi
