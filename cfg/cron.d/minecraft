@@ -1,5 +1,2 @@
-# Shutdown minecraft (graceful) on sunday-thursday at 23:00
-30 22 * * * minecraft /usr/bin/bash /home/minecraft/Fampack/cfg/scripts/shutdown.bash turnoff
-
-# In case shutdown was prevented because players are online, trsy again at 3:00
-30 2 * * * minecraft /usr/bin/bash /home/minecraft/Fampack/cfg/scripts/shutdown.bash turnoff
+# Shutdown minecraft (graceful) every 4th hour (shuts down only if no-one is playing)
+0 */4 * * * minecraft /usr/bin/bash /home/minecraft/Fampack/cfg/scripts/shutdown.bash turnoff
