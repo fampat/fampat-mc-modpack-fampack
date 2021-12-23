@@ -19,7 +19,7 @@ if [[ ! -z $RUNNING_SCREEN ]]; then
         #Wait for the world to be saved
         while [ ! -z $(screen -ls | grep -e '[/d]*\.minecraft' | awk '{ print $1 }') ]
         do
-            sleep 5s
+            sleep 3s
         done
        
         echo '>>> Minecraft server saved and stopped...'
