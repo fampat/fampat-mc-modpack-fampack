@@ -14,6 +14,6 @@ if [[ ! -z RUNNING_SCREEN ]]; then
     if [[ "$1" = "turnoff" ]]; then
      echo '>>> Shutting down the Minecraft home-server...'
      sleep 10s
-     shutdown now -h
+     sudo /usr/sbin/shutdown now -h
     fi
 fi
