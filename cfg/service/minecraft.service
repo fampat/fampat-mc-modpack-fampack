@@ -1,3 +1,5 @@
+# Add minecraft start and stop as services
+# 
 # cp minecraft.service /etc/systemd/system
 # chmod +x /etc/systemd/system/minecraft.service
 # systemctl daemon-reload

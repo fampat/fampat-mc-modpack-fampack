@@ -1,3 +1,5 @@
+# Enable wake-on-lan for if enp3s0
+# 
 # cp wol.service /etc/systemd/system
 # chmod +x /etc/systemd/system/wol.service
 # systemctl daemon-reload

@@ -1,4 +1,5 @@
 #!/bin/bash
+# Start a minecraft-session via screen
 
 RUNNING_SCREEN=$(screen -ls | grep 'minecraft')
 

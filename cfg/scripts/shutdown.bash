@@ -1,4 +1,6 @@
 #!/bin/bash
+# Shuts down the minecraft server if its running via screen named "minecraft"
+# and no one is playing currently
 
 # Fetch running screens with minecraft
 RUNNING_SCREEN=$(screen -ls | grep -e '[/d]*\.minecraft')
@@ -29,5 +31,9 @@ if [[ ! -z $RUNNING_SCREEN ]]; then
             echo '>>> Shutting down the Minecraft home-server machine...'
             sudo /usr/sbin/shutdown now -h
         fi
+    else
+        echo '>>> Shutdown aborted, Minecraft home-server not empty...'
     fi
+else
+    echo '>>> Shutdown aborted, no Screen with name "minecraft" found...'
 fi
