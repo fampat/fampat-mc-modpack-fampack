@@ -339,7 +339,7 @@
 	"Pat The Dogs" = true
 	"Reacharound Placing" = true
 	"Campfires Boost Elytra" = true
-	"Double Door Opening" = true
+	"Double Door Opening" = false
 	Emotes = true
 	"Hoe Harvesting" = true
 	"Armed Armor Stands" = true
