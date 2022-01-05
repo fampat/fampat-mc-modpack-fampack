@@ -1,0 +1,18 @@
+
+[Active-Spawner]
+	#Active-Spawners can keep chunks they are placed in loaded, regardless of nearby players.
+	#This keeps the spawner active even with no players on the server.
+	#Changing this value requires a server-restart.
+	"Active-Spawners keep chunks loaded" = false
+
+[All-Spawner]
+	#Enable that spawners drop themselfs if mined with a silk-touch enchanted tool like a pickaxe.
+	#Changing this value requires a server-restart.
+	"Drop spawner when silk-touch mined" = true
+
+[Debug]
+	#Define a player UUID to whom server-debug data will be outputtet on the server-console.
+	#This is mainly usefull to check the chunk-force-loading.
+	#Right-click with a Spawner-Catalyst in hand on invalid places to produce the debug output.
+	"Player UUID" = "3f8f5b4c-ec0d-4b2d-9181-fb874006da9a"
+

@@ -12,13 +12,13 @@ disable_egg_trampling = false
 	disable_damage = false
 
 	[creeper.firework]
-		enabled = false
+		enabled = true
 		#The colors that the firework contains
 		colors = ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"]
 
 	[creeper.lingering_effects]
 		#If creepers should spawn a lingering effect cloud upon exploding
-		enabled = false
+		enabled = true
 		#The potion effects that the creeper spawns upon exploding
 		effects = ["{Ambient:0b,Amplifier:1b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:200,Id:9b,ShowIcon:1b,ShowParticles:1b}"]
 
