@@ -1432,7 +1432,7 @@
 
 [oddities]
 	Backpack = true
-	Magnets = false
+	Magnets = true
 	"Matrix Enchanting" = false
 	"Totem Of Holding" = true
 	Pipes = true

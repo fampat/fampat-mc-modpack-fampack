@@ -62,7 +62,7 @@
 	#Watering Can enabled?
 	wateringCan = true
 	#Enable Paxels?
-	paxels = false
+	paxels = true
 	#Enable Night Vision Goggles?
 	nightVisionGoggles = true
 	#Enable Magnet?
@@ -80,5 +80,5 @@
 	#Diamond and Emerald Apples enabled?
 	apples = true
 	#Enable Meshes?
-	meshes = false
+	meshes = true
 
