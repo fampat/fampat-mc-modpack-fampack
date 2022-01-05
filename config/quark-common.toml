@@ -198,7 +198,7 @@
 
 [management]
 	"Item Sharing" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
 	"Chests In Boats" = true
@@ -430,7 +430,7 @@
 		#A list of recipe names that should NOT be added in by default
 		"Ignored Recipes" = []
 		"Force Limited Crafting" = false
-		"Disable Recipe Book" = false
+		"Disable Recipe Book" = true
 
 	[tweaks.enhanced_ladders]
 		#Allowed values: (,0]
@@ -1432,8 +1432,8 @@
 
 [oddities]
 	Backpack = true
-	Magnets = true
-	"Matrix Enchanting" = true
+	Magnets = false
+	"Matrix Enchanting" = false
 	"Totem Of Holding" = true
 	Pipes = true
 	Crate = true
