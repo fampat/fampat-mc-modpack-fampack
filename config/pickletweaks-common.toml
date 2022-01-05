@@ -5,7 +5,7 @@
 	#Ex: ["minecraft:stone_pickaxe", "minecraft:stone_sword"]
 	uselessTools = []
 	#Enabled tools not breaking?
-	toolBreaking = true
+	toolBreaking = false
 
 #Crafting grid tool repair configuration options.
 ["Grid Repair"]
@@ -52,7 +52,7 @@
 #Disable features.
 [Features]
 	#Enable Sickles?
-	sickles = true
+	sickles = false
 	#Dark Glass enabled?
 	darkGlass = false
 	#Enable Emerald tools and armor?
@@ -62,23 +62,23 @@
 	#Watering Can enabled?
 	wateringCan = true
 	#Enable Paxels?
-	paxels = true
+	paxels = false
 	#Enable Night Vision Goggles?
 	nightVisionGoggles = true
 	#Enable Magnet?
 	magnet = false
 	#Coal and Charcoal Piece enabled?
-	coalPiece = true
+	coalPiece = false
 	#Enable Scythes?
-	scythes = true
+	scythes = false
 	#Enable Flint tools and armor?
 	flintGear = false
 	#Enable right click crop harvesting?
-	rightClickHarvest = true
+	rightClickHarvest = false
 	#Smooth Glowstone enabled?
 	smoothGlowstone = true
 	#Diamond and Emerald Apples enabled?
 	apples = true
 	#Enable Meshes?
-	meshes = true
+	meshes = false
 
