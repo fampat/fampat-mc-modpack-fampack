@@ -127,7 +127,7 @@
 
 ["Rings Loot"]
 	#The minimum number of rings that can be found inside a single chest. Values below 0 decrease the chance of the rings appearing.
-	ringMinLoot = -15
+	ringMinLoot = -35
 	#The maximum number of rings that can be found inside a single chest.
 	ringMaxLoot = 1
 
