@@ -105,7 +105,7 @@
 	"Wooden Posts" = true
 	"Framed Glass" = true
 	Grate = true
-	"Variant Furnaces" = true
+	"Variant Furnaces" = false
 	"Variant Ladders" = true
 
 	[building.rope]
