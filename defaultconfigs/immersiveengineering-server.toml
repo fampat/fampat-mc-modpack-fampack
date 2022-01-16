@@ -203,13 +203,13 @@
 		fluid = 250
 		#A modifier to apply to the cloches total growing speed
 		#Range: 0.001 ~ 1000.0
-		growth_modifier = 1.33
+		growth_modifier = 1.22
 		#A base-modifier for all solid fertilizers in the cloche
 		#Range: 0.001 ~ 1000.0
-		solid_fertilizer_mod = 1.55
+		solid_fertilizer_mod = 1.33
 		#A base-modifier for all fluid fertilizers in the cloche
 		#Range: 0.001 ~ 1000.0
-		fluid_fertilizer_mod = 1.77
+		fluid_fertilizer_mod = 1.44
 
 	[machines.lantern]
 		#Set this to false to disable the mob-spawn prevention of the Powered Lantern
