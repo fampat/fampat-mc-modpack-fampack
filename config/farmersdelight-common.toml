@@ -7,7 +7,7 @@
 	farmersBuyFDCrops = true
 	#How often (in percentage) should Rich Soil succeed in boosting a plant's growth at each random tick? Set it to 0.0 to disable this.
 	#Range: 0.0 ~ 1.0
-	richSoilBoostChance = 0.35
+	richSoilBoostChance = 0.33
 	#How much of a bonus (in percentage) should each level of Fortune grant to Cutting Board chances? Set it to 0.0 to disable this.
 	#Range: 0.0 ~ 1.0
 	cuttingBoardFortuneBonus = 0.25
